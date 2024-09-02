@@ -1,0 +1,19 @@
+{
+  "frontmatterProperty": "modifiedAt",
+  "momentFormat": "YYYY-MM-DD HH:mm",
+  "excludedFolders": [
+    "Daily Notes",
+    "Fleeting Notes",
+    "Assets",
+    "Google Keep",
+    "Kindle Highlights",
+    "Templates",
+    "Maps"
+  ],
+  "useKeyupEvents": false,
+  "onlyUpdateExisting": true,
+  "timeout": 10,
+  "excludeField": "exclude_modified_update",
+  "appendField": "append_modified_update",
+  "appendMaximumFrequency": "day"
+}

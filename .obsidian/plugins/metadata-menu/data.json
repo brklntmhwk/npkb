@@ -1,0 +1,152 @@
+{
+  "presetFields": [
+    {
+      "type": "Boolean",
+      "tagName": "single",
+      "icon": "pencil",
+      "tooltip": "Accepts any value",
+      "colorClass": "single",
+      "options": {},
+      "name": "isReal",
+      "id": "8M2T8l",
+      "path": "",
+      "command": {
+        "id": "insert__presetField__isReal",
+        "icon": "switch",
+        "label": "Insert isReal field"
+      }
+    },
+    {
+      "type": "Select",
+      "tagName": "single",
+      "icon": "pencil",
+      "tooltip": "Accepts any value",
+      "colorClass": "single",
+      "options": {
+        "valuesList": {
+          "1": "⛵",
+          "2": "🌱",
+          "3": "🌿",
+          "4": "🌳"
+        },
+        "sourceType": "ValuesList",
+        "valuesListNotePath": "",
+        "valuesFromDVQuery": ""
+      },
+      "name": "status",
+      "id": "9C7DUB",
+      "path": ""
+    },
+    {
+      "type": "Multi",
+      "tagName": "multi",
+      "icon": "bullet-list",
+      "tooltip": "Accepts multiple values from a list",
+      "colorClass": "multi",
+      "options": {
+        "valuesList": {
+          "1": "💭",
+          "3": "🕸️",
+          "4": "📖",
+          "5": "📻",
+          "6": "🌐",
+          "7": "📄",
+          "8": "🎧",
+          "9": "🧠"
+        },
+        "sourceType": "ValuesList",
+        "valuesListNotePath": "",
+        "valuesFromDVQuery": ""
+      },
+      "name": "media",
+      "id": "me0oSY",
+      "path": "",
+      "command": {
+        "id": "insert__presetField__media",
+        "icon": "radio",
+        "label": "Insert media field"
+      }
+    },
+    {
+      "type": "Multi",
+      "tagName": "multi",
+      "icon": "bullet-list",
+      "tooltip": "Accepts multiple values from a list",
+      "colorClass": "multi",
+      "options": {
+        "valuesList": {
+          "1": "🔤",
+          "2": "⚗️",
+          "3": "🔢",
+          "4": "💪",
+          "5": "⚽",
+          "6": "🥋",
+          "7": "⚾",
+          "8": "🖥️",
+          "9": "🎹",
+          "11": "🎯",
+          "12": "🤝",
+          "13": "📝",
+          "14": "📷",
+          "15": "💰"
+        },
+        "sourceType": "ValuesList",
+        "valuesListNotePath": "",
+        "valuesFromDVQuery": ""
+      },
+      "name": "tags",
+      "id": "q6PxQ8",
+      "path": ""
+    },
+    {
+      "type": "Cycle",
+      "tagName": "single",
+      "icon": "pencil",
+      "tooltip": "Accepts any value",
+      "colorClass": "single",
+      "options": {
+        "valuesList": {
+          "1": "⛵",
+          "2": "🌱",
+          "3": "🌿",
+          "4": "🌳"
+        },
+        "sourceType": "ValuesList",
+        "valuesListNotePath": "",
+        "valuesFromDVQuery": ""
+      },
+      "name": "statuses",
+      "id": "rCgkfT",
+      "path": ""
+    }
+  ],
+  "fileClassQueries": [],
+  "displayFieldsInContextMenu": true,
+  "globallyIgnoredFields": [],
+  "classFilesPath": null,
+  "isAutosuggestEnabled": true,
+  "fileClassAlias": "fileClass",
+  "settingsVersion": "5.33",
+  "firstDayOfWeek": 1,
+  "enableLinks": true,
+  "enableTabHeader": true,
+  "enableEditor": false,
+  "enableBacklinks": true,
+  "enableStarred": true,
+  "enableFileExplorer": true,
+  "enableSearch": true,
+  "enableProperties": true,
+  "tableViewMaxRecords": 20,
+  "frontmatterListDisplay": "asArray",
+  "fileClassExcludedFolders": [],
+  "showIndexingStatusInStatusBar": true,
+  "fileIndexingExcludedFolders": [],
+  "fileIndexingExcludedExtensions": [],
+  "fileIndexingExcludedRegex": [],
+  "frontmatterOnly": true,
+  "showFileClassSelectInModal": true,
+  "chooseFileClassAtFileCreation": false,
+  "autoInsertFieldsAtFileClassInsertion": false,
+  "fileClassIcon": "package",
+  "isAutoCalculationEnabled": true
+}

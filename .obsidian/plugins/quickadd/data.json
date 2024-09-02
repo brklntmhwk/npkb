@@ -1,0 +1,177 @@
+{
+  "choices": [
+    {
+      "id": "8de5c7b8-e9f4-4c09-9d28-302e3eb893fd",
+      "name": "Git commit & push",
+      "type": "Macro",
+      "command": true,
+      "macroId": "94ce3598-f62c-4ba8-b8d9-fa8f6ad1b125"
+    },
+    {
+      "id": "2315806b-b4ad-4643-b24a-92c919cde228",
+      "name": "Add A New Note with Prompts",
+      "type": "Macro",
+      "command": true,
+      "macroId": "bc101970-78a6-4c9f-b924-f50d96253318"
+    }
+  ],
+  "macros": [
+    {
+      "name": "Git Commit with A Message & Push",
+      "id": "94ce3598-f62c-4ba8-b8d9-fa8f6ad1b125",
+      "commands": [
+        {
+          "name": "Git: Commit all changes with specific message",
+          "type": "Obsidian",
+          "id": "2a197cad-99d1-4e40-a80b-0a3845c30c2b",
+          "commandId": "obsidian-git:commit-specified-message"
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "d9229ef8-b7d3-4618-a582-9d22295d6853",
+          "time": 2000
+        },
+        {
+          "name": "Git: Push",
+          "type": "Obsidian",
+          "id": "4f7b6f4f-4721-448e-8655-fed36ee6bd9f",
+          "commandId": "obsidian-git:push2"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Add A New Note with Prompts",
+      "id": "bc101970-78a6-4c9f-b924-f50d96253318",
+      "commands": [
+        {
+          "name": "Specify the note type",
+          "type": "NestedChoice",
+          "id": "c7128590-06fa-4aa1-bb83-bd9d4fbb429a",
+          "choice": {
+            "id": "baa23eab-6eec-4b90-a1fb-91595cd35de9",
+            "name": "Specify the note type",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Templates/Meta Template.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{MACRO:TitlePrompt::addTitle}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Notes/Gleanings",
+                "Notes/Ideas",
+                "Notes/Concepts",
+                "Notes/People",
+                "Notes/Efforts",
+                "MOC",
+                "+"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": true
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "TitlePrompt",
+      "id": "b1b02edf-be1b-4902-ad83-9de540c12777",
+      "commands": [
+        {
+          "name": "addNotePrompts",
+          "type": "UserScript",
+          "id": "81f9135f-d56b-47c3-b8be-c4b26951cb2e",
+          "path": "Scripts/addNotePrompts.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
+  "inputPrompt": "single-line",
+  "devMode": false,
+  "templateFolderPath": "Templates",
+  "announceUpdates": true,
+  "version": "1.11.1",
+  "disableOnlineFeatures": true,
+  "enableRibbonIcon": false,
+  "ai": {
+    "defaultModel": "Ask me",
+    "defaultSystemPrompt": "As an AI assistant within Obsidian, your primary goal is to help users manage their ideas and knowledge more effectively. Format your responses using Markdown syntax. Please use the [[Obsidian]] link format. You can write aliases for the links by writing [[Obsidian|the alias after the pipe symbol]]. To use mathematical notation, use LaTeX syntax. LaTeX syntax for larger equations should be on separate lines, surrounded with double dollar signs ($$). You can also inline math expressions by wrapping it in $ symbols. For example, use $$w_{ij}^{\text{new}}:=w_{ij}^{\text{current}}+etacdotdelta_jcdot x_{ij}$$ on a separate line, but you can write \"($eta$ = learning rate, $delta_j$ = error term, $x_{ij}$ = input)\" inline.",
+    "promptTemplatesFolderPath": "",
+    "showAssistant": true,
+    "providers": [
+      {
+        "name": "OpenAI",
+        "endpoint": "https://api.openai.com/v1",
+        "apiKey": "",
+        "models": [
+          {
+            "name": "text-davinci-003",
+            "maxTokens": 4096
+          },
+          {
+            "name": "gpt-3.5-turbo",
+            "maxTokens": 4096
+          },
+          {
+            "name": "gpt-3.5-turbo-16k",
+            "maxTokens": 16384
+          },
+          {
+            "name": "gpt-3.5-turbo-1106",
+            "maxTokens": 16385
+          },
+          {
+            "name": "gpt-4",
+            "maxTokens": 8192
+          },
+          {
+            "name": "gpt-4-32k",
+            "maxTokens": 32768
+          },
+          {
+            "name": "gpt-4-1106-preview",
+            "maxTokens": 128000
+          },
+          {
+            "name": "gpt-4-turbo",
+            "maxTokens": 128000
+          },
+          {
+            "name": "gpt-4o",
+            "maxTokens": 128000
+          },
+          {
+            "name": "gpt-4o-mini",
+            "maxTokens": 128000
+          }
+        ]
+      }
+    ]
+  },
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
+    "setVersionAfterUpdateModalRelease": true,
+    "addDefaultAIProviders": true
+  }
+}

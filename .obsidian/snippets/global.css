@@ -1,0 +1,65 @@
+.markdown-preview-view h2 {
+  padding: 0.215rem 0 !important;
+}
+
+.HyperMD-header-2 {
+  padding: 1.275rem 0 !important;
+}
+
+.markdown-preview-view h3,
+.markdown-preview-view h4 {
+  padding: 0.185rem 0 !important;
+}
+
+.HyperMD-header-3,
+.HyperMD-header-4 {
+  padding: 1.175rem 0 !important;
+}
+
+.markdown-preview-view h5,
+.markdown-preview-view h6 {
+  padding: 0.15rem 0 !important;
+}
+
+.HyperMD-header-5,
+.HyperMD-header-6 {
+  padding: 1.075rem 0 !important;
+}
+
+.table-view-table > tbody > tr > td {
+  padding: 0.8em 0 0.8em 0.7em;
+}
+
+.table-view-table > tbody > tr > td:hover {
+  background-color: hsla(0, 5%, 94.7%, 0.5);
+}
+
+.block-language-dataview,
+.block-language-dataviewjs {
+  display: block;
+  max-height: 45rem;
+  width: 100%;
+  overflow: auto;
+}
+
+.callout[data-callout="calendar"] {
+  --callout-color: 40, 191, 159;
+  --callout-icon: calendar-days;
+}
+
+.callout[data-callout="map"] {
+  --callout-color: 227, 150, 109;
+  --callout-icon: map;
+}
+
+.callout[data-callout="goal"] {
+  --callout-color: 205, 75, 81;
+  --callout-icon: goal;
+}
+
+.iconize-inline-title-wrapper {
+  width: 100% !important;
+  display: flex;
+  gap: 0.25rem;
+  justify-content: center;
+}

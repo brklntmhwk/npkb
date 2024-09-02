@@ -1,0 +1,14 @@
+{
+  "defaultMode": "match",
+  "autoPin": "onMove",
+  "triggerDelay": 700,
+  "closeDelay": 400,
+  "autoFocus": true,
+  "rollDown": false,
+  "snapToEdges": false,
+  "initialHeight": "440px",
+  "initialWidth": "500px",
+  "showViewHeader": false,
+  "imageZoom": true,
+  "hoverEmbeds": true
+}

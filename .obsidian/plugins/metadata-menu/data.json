@@ -45,36 +45,6 @@
       "colorClass": "multi",
       "options": {
         "valuesList": {
-          "1": "💭",
-          "3": "🕸️",
-          "4": "📖",
-          "5": "📻",
-          "6": "🌐",
-          "7": "📄",
-          "8": "🎧",
-          "9": "🧠"
-        },
-        "sourceType": "ValuesList",
-        "valuesListNotePath": "",
-        "valuesFromDVQuery": ""
-      },
-      "name": "media",
-      "id": "me0oSY",
-      "path": "",
-      "command": {
-        "id": "insert__presetField__media",
-        "icon": "radio",
-        "label": "Insert media field"
-      }
-    },
-    {
-      "type": "Multi",
-      "tagName": "multi",
-      "icon": "bullet-list",
-      "tooltip": "Accepts multiple values from a list",
-      "colorClass": "multi",
-      "options": {
-        "valuesList": {
           "1": "🔤",
           "2": "⚗️",
           "3": "🔢",
@@ -118,6 +88,35 @@
       "name": "statuses",
       "id": "rCgkfT",
       "path": ""
+    },
+    {
+      "type": "Multi",
+      "tagName": "multi",
+      "icon": "bullet-list",
+      "tooltip": "Accepts multiple values from a list",
+      "colorClass": "multi",
+      "options": {
+        "valuesList": {
+          "3": "🕸️",
+          "4": "📖",
+          "5": "📻",
+          "6": "🌐",
+          "7": "📄",
+          "8": "🎧",
+          "9": "🧠"
+        },
+        "sourceType": "ValuesList",
+        "valuesListNotePath": "",
+        "valuesFromDVQuery": ""
+      },
+      "name": "media",
+      "id": "me0oSY",
+      "path": "",
+      "command": {
+        "id": "insert__presetField__media",
+        "icon": "radio",
+        "label": "Insert media field"
+      }
     }
   ],
   "fileClassQueries": [],
@@ -126,7 +125,7 @@
   "classFilesPath": null,
   "isAutosuggestEnabled": true,
   "fileClassAlias": "fileClass",
-  "settingsVersion": "5.33",
+  "settingsVersion": "5.34",
   "firstDayOfWeek": 1,
   "enableLinks": true,
   "enableTabHeader": true,

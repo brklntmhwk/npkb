@@ -6,13 +6,6 @@
       "type": "Macro",
       "command": true,
       "macroId": "94ce3598-f62c-4ba8-b8d9-fa8f6ad1b125"
-    },
-    {
-      "id": "2315806b-b4ad-4643-b24a-92c919cde228",
-      "name": "Add A New Note with Prompts",
-      "type": "Macro",
-      "command": true,
-      "macroId": "bc101970-78a6-4c9f-b924-f50d96253318"
     }
   ],
   "macros": [
@@ -37,54 +30,6 @@
           "type": "Obsidian",
           "id": "4f7b6f4f-4721-448e-8655-fed36ee6bd9f",
           "commandId": "obsidian-git:push2"
-        }
-      ],
-      "runOnStartup": false
-    },
-    {
-      "name": "Add A New Note with Prompts",
-      "id": "bc101970-78a6-4c9f-b924-f50d96253318",
-      "commands": [
-        {
-          "name": "Specify the note type",
-          "type": "NestedChoice",
-          "id": "c7128590-06fa-4aa1-bb83-bd9d4fbb429a",
-          "choice": {
-            "id": "baa23eab-6eec-4b90-a1fb-91595cd35de9",
-            "name": "Specify the note type",
-            "type": "Template",
-            "command": false,
-            "templatePath": "Templates/Meta Template.md",
-            "fileNameFormat": {
-              "enabled": true,
-              "format": "{{MACRO:TitlePrompt::addTitle}}"
-            },
-            "folder": {
-              "enabled": true,
-              "folders": [
-                "Notes/Gleanings",
-                "Notes/Ideas",
-                "Notes/Concepts",
-                "Notes/People",
-                "Notes/Efforts",
-                "MOC",
-                "+"
-              ],
-              "chooseWhenCreatingNote": false,
-              "createInSameFolderAsActiveFile": false,
-              "chooseFromSubfolders": false
-            },
-            "appendLink": false,
-            "openFileInNewTab": {
-              "enabled": false,
-              "direction": "vertical",
-              "focus": true
-            },
-            "openFile": true,
-            "openFileInMode": "default",
-            "fileExistsMode": "Increment the file name",
-            "setFileExistsBehavior": true
-          }
         }
       ],
       "runOnStartup": false

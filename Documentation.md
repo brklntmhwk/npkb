@@ -21,7 +21,7 @@ git clone https://github.com/brklntmhwk/npkb.git ${YOUR_VAULT_NAME}
 - Change "Appearance > Themes" to "Minimal"
 
 4. Enable community plugins
-- Turn on all the plugins in "Community Plugins > Installed plugins" and click the reload button right above the setting
+- Turn on all the plugins except "Git" in "Community Plugins > Installed plugins" and click the reload button right above the setting
 
 5. Commit and push to your repository
 - Run the series of commands below in your code editor or terminal
@@ -37,6 +37,11 @@ git push origin main
 git remote -v
 ```
 
+6. Enable the Git plugin 
+- Follow the same step as No.4
+- After enabling it, some prompts might pop up to ask you about your Git remote repository. Select "main" and "origin/main" respectively
+
+Hereafter, you can commit changes and push them to your remote repository by running the command "QuickAdd: Git commit & push".
 ## Optional Setup
 ### Kindle Highlights
 >[!warning]+ Prerequisites
@@ -52,3 +57,24 @@ Now you can see files under the Kindle Highlights directory, each of which has a
 You can change appearance such as font size, layout, color theme, etc. See "Community Plugins > Minimal Theme Settings" for more details.
 
 As for things the Minimal Theme Settings cannot handle, you can also add CSS to the style sheet (`.obsidian/snippets/global.css`). In that case, note that you need to have a code editor in your local (e.g., [VSCode](https://code.visualstudio.com/)) because it's impossible to open it from this vault. Incidentally, you can see class names via the developer console Obsidian offers.
+
+## Tips
+>[!warning]+ Note
+> You will only see tips on what are unique to this vault here. For more basic or common knowledge about Obsidian, consult [the official doc](https://help.obsidian.md/Home) .
+### Create a new note with prompts
+You can do so by doing one of these:
+- Press `Ctrl(⌘) + N` 
+	- This is registered as a shortcut key by default
+- Click "Create New Note with Prompts" from the ribbon menu bar
+	- On PC, it's usually on the left
+- Run the command "Templater: Insert Templates/Meta Template.md" from the command palette
+
+After that, you will see media options and then a title input prompt pop up. Select one of those and fill in the note title respectively.
+### Create a new daily note for today
+You can do so by doing one of these:
+- Click today on the calendar shown in the right sidebar
+	- You need to put it there manually in advance
+- Click "Open Today" from the ribbon menu bar
+- Run the command "Periodic Notes: Open daily note" from the command palette
+	- This creates a new today's note if it doesn't exist
+### 

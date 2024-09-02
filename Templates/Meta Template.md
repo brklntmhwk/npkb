@@ -3,28 +3,27 @@ let title;
 let template;
 let folder;
 
-const media = await tp.system.suggester((item) => item, ["💭", "📖", "🕸️", "📻", "🌐", "🎧", "🧠", "❓",], true)
+const media = await tp.system.suggester((item) => item, ["📖", "🧠", "🎧", "📰", "📻", "🌐", "🕸️", "❓",], true);
 
 if (media != "❓") {
-	folder = "Notes/Gleanings"
-	title = await tp.system.prompt("Title:", undefined, true)
-	title = tp.user.validateTitle(title)
-
+	folder = "Notes/Gleanings";
+	title = await tp.system.prompt("Title:", undefined, true);
+	title = tp.user.validateTitle(title);
 	switch (media) {
-		case "💭": {
-			template = tp.file.find_tfile("Thoughts");
-			break;
-		}
 		case "📖": {
 			template = tp.file.find_tfile("Book");
+			break;
+		}
+		case "🧠": {
+			template = tp.file.find_tfile("ChatGPT");
 			break;
 		}
 		case "🎧": {
 			template = tp.file.find_tfile("Music");
 			break;
 		}
-		case "🕸️": {
-			template = tp.file.find_tfile("Website");
+		case "📰": {
+			template = tp.file.find_tfile("Paper");
 			break;
 		}
 		case "📻": {
@@ -35,16 +34,14 @@ if (media != "❓") {
 			template = tp.file.find_tfile("SNS");
 			break;
 		}
-		case "🧠": {
-			template = tp.file.find_tfile("ChatGPT");
+		case "🕸️": {
+			template = tp.file.find_tfile("Website");
 			break;
 		}
 		default:
 			break;
 	}
-
 	await tp.file.create_new(template, title, true, folder)
-
 	const file = tp.file.find_tfile(tp.file.path(true));
 	await app.fileManager.processFrontMatter(file, fm => {
 		fm["tags"] = null;
@@ -53,8 +50,7 @@ if (media != "❓") {
 		fm["modifiedAt"] =  tp.date.now("YYYY-MM-DD HH:mm");
 		fm["media"] = media;
 		fm["status"] = "⛵";
-
-		if(media === "📖") {
+		if(media === "📖" || media === "📰") {
 			fm["title"] = title;
 			fm["author"] = "John Doe";
 		}
@@ -63,10 +59,9 @@ if (media != "❓") {
 		}
 	});
 } else {
-	const type = await tp.system.suggester((item) => item, ["🎯", "🧑‍🤝‍🧑", "👨‍🏫", "🗺️", "❓"], true)
+	const type = await tp.system.suggester((item) => item, ["🎯", "👨‍🏫", "🗺️", "❓"], true)
 	title = await tp.system.prompt("Title:", undefined, true)
 	title = tp.user.validateTitle(title)
-
 	switch (type) {
 		case "🎯": {
 			template = tp.file.find_tfile("Goal");
@@ -90,7 +85,6 @@ if (media != "❓") {
 		}
 	}
 	await tp.file.create_new(template, title, true, folder)
-
 	const file = tp.file.find_tfile(tp.file.path(true));
 	await app.fileManager.processFrontMatter(file, fm => {
 		switch (type) {

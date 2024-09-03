@@ -56,12 +56,12 @@ Now you can see files under the Kindle Highlights directory, each of which has a
 ### Appearance
 You can change appearance such as font size, layout, color theme, etc. See "Community Plugins > Minimal Theme Settings" for more details.
 
-As for things the Minimal Theme Settings cannot handle, you can also add CSS to the style sheet (`.obsidian/snippets/global.css`). In that case, note that you need to have a code editor in your local (e.g., [VSCode](https://code.visualstudio.com/)) because it's impossible to open it from this vault. Incidentally, you can see class names via the developer console Obsidian offers.
-
+As for things the Minimal Theme Settings cannot handle, you can also customize CSS in `.obsidian/snippets/global.css`. In that case, note that you need to have a code editor in your local (e.g., [VSCode](https://code.visualstudio.com/)) because it's impossible to open it from this vault. Incidentally, you can see class names via the developer console Obsidian offers. (Press `Ctrl(⌘) + Shift(⌥) + I` )
 ## Tips
->[!warning]+ Note
-> You will only see tips on what are unique to this vault here. For more basic or common knowledge about Obsidian, consult [the official doc](https://help.obsidian.md/Home) .
+>[!info]+ Note
+> You will only see tips on what are unique to this vault. For more basic or common tips about Obsidian, consult [the official doc](https://help.obsidian.md/Home) .
 ### Create a new note with prompts
+![[Documentation-20240903115733087.webp]]
 You can do so by doing one of these:
 - Press `Ctrl(⌘) + N` 
 	- This is registered as a shortcut key by default
@@ -70,6 +70,9 @@ You can do so by doing one of these:
 - Run the command "Templater: Insert Templates/Meta Template.md" from the command palette
 
 After that, you will see media options and then a title input prompt pop up. Select one of those and fill in the note title respectively.
+
+>[!warning]+ Caution
+> Make sure you're following either of the ways above when creating a new note. Otherwise, notes will be created with empty content. They are supposed to be under the "+" directory.
 ### Create a new daily note for today
 You can do so by doing one of these:
 - Click today on the calendar shown in the right sidebar
@@ -77,4 +80,10 @@ You can do so by doing one of these:
 - Click "Open Today" from the ribbon menu bar
 - Run the command "Periodic Notes: Open daily note" from the command palette
 	- This creates a new today's note if it doesn't exist
-### 
+### Add a new tag to the options
+- Go to "Community Plugins > Metadata Menu > Preset Fields Settings"
+- Click the pen icon on the right side of the "tags" row
+- Add a new tag from the "Add a value" menu
+
+>[!warning]+ Caution
+> You can also add them from the frontmatter area of each note, but the tags added that way don't appear in the options.

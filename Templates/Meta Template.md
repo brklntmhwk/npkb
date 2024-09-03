@@ -5,7 +5,7 @@ let folder;
 
 const media = await tp.system.suggester((item) => item, ["📖", "🧠", "🎧", "📰", "📻", "🌐", "🕸️", "❓",], true);
 
-if (media != "❓") {
+if (media !== "❓") {
 	folder = "Notes/Gleanings";
 	title = await tp.system.prompt("Title:", undefined, true);
 	title = tp.user.validateTitle(title);
@@ -91,6 +91,7 @@ if (media != "❓") {
 			case "🎯": {
 				fm["tags"] = "🎯";
 				fm["isActive"] = true;
+				fm["createdAt"] = tp.date.now("YYYY-MM-DD");
 				fm["launchedAt"] = fm["createdAt"];
 				fm["completeAt"] = moment(new Date("9999-12-31")).format("YYYY-MM-DD");
 				break;

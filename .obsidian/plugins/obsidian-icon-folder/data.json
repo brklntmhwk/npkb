@@ -35,7 +35,6 @@
     "debugMode": false
   },
   "Templates/Meta Template.md": "FasPuzzlePiece",
-  "Templates/Thoughts.md": "💭",
   "Templates/Daily Notes.md": {
     "iconName": "FasCalendarDay",
     "iconColor": "#869afd"
@@ -55,7 +54,6 @@
   "Assets/Canvas": "🖼",
   "Notes": "🗒",
   "Notes/Gleanings": "🍂",
-  "Notes/Ideas": "💡",
   "Notes/Concepts": "🤔",
   "Scripts": "FasCode",
   "Maps/Kindle Library.md": "📚",

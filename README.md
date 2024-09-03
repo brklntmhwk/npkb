@@ -1,10 +1,12 @@
 ---
-modifiedAt: 2024-09-02 18:00
+modifiedAt: 2024-09-03 12:10
 aliases: []
 ---
 🔙[[Home]]
 
 ## Intro
+![[npkb.png]]
+
 For setup and usage, see [[Documentation]].
 
 Welcome to **Nagi's Personal Knowledge Base (NPKB)**. I created it for the following reasons:
@@ -34,7 +36,7 @@ As an indicator of to what extent a note has been matured, the following emojis 
 - `🌿: budding` Growing with more than a few  bidirectional links and contents added but still developing
 - `🌲: evergreen forest`  Well developed and full-fledged "Permanent Notes"
 
-By introducing these to your note-taking system, you can clearly see their maturity as a note and easily prioritize which one to start with. I determined the classification above referring to [Bryan Jenks](https://notes.bryanjenks.dev/Z/HOME).
+By introducing these to your note-taking system, you can clearly see their maturity as a note and easily prioritize them. I determined the classification above referring to [Bryan Jenks](https://notes.bryanjenks.dev/Z/HOME).
 ## Directory Tree
 Since this place adheres to [[#^eb4bbe|the Evergreen ethos]] and [bidirectional links](https://help.obsidian.md/Linking+notes+and+files/Internal+links), **hierarchical directory structures are not so important as traversal links**. So don't rack your brain too much over them. Keep them to an absolute minimum.
 
@@ -51,7 +53,6 @@ NPKB/
 ├── Notes/
 │   ├── Concepts/
 │   ├── Gleanings/
-│   ├── Ideas/
 │   ├── MOC/
 │   │   ├── Climbing Map
 │   │   ├── Evergreen Garden
@@ -80,11 +81,11 @@ Notes are created based on templates. By answering some prompts, you can create 
 ### Notes
 Notes contain the rest of all. They are supposed to be, so to speak, "Permanent Notes" down the road, following [[#^eb4bbe|the evergreen process]] above.
 #### Concepts
+You can manage bigger and more abstract things here. When you want to start with a bigger concept from the beginning, this is the one.
 #### Efforts
-Goals you're seeking are placed here.
+Your long-term goals are supposed to be here. You can see the whole progress of your projects in the [[Climbing Map]].
 #### Gleanings
 Everything gathered from external info sources (e.g., Social media) are placed here.
-#### Ideas
 #### MOC(Map Of Content)
 A map of content is a collection of notes that are geared towards a specific topic.
 

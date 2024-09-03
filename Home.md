@@ -3,18 +3,18 @@
 >[!example]- 3 tips for Learning
 >- **Connect! Connect! Connect!**
 >	- Always try your best to connect new info or knowledge with existing ones
->	- A series of connected memories can be retrieved one after another, once one of them is done so
+>	- Memories are evoked one after another like the domino effect
 >	- Don't be too meticulous when you try to think of connections. The more the connection comes as surprise, the stickier to your mind
 >- **In and out, they are best buddies.**
 >	- Keep the balance between Inputs and outputs
 >	- Take a note on a whiteboard, iPad, or a piece of paper off the cuff and talk about it as if you're teaching it to someone else.
 >	- Actively recall whatever you've just learnt with Anki or other flashcards
 >	- Do mental math or imagine something that could trigger you to recall that object on the spot
->- **Learn with meta-cognition**
+>- **Learn with meta-cognition.**
 >	- Are you present in this moment?
 >	- Aren't you multitasking distracted by multiple things at once?
 >		- Multitasking will gradually but definitely eat away at your will power and concentration
->	- Don't you gravitate toward inputs too much like merely watching YouTube videos, or browsing web pages, without thinking on my own?
+>	- Aren't you gravitating toward inputs too much like merely watching YouTube videos, or browsing web pages, without thinking on my own?
 
 > [!calendar]- Recent Daily Notes
 > Look back on what occurred to you in the last 7 days.

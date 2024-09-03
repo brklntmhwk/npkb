@@ -1,6 +1,6 @@
 🔙[[Home]]
 
-## 🧗 Ongoing
+## 🧗 Ongoing 
 ```dataviewjs
 const headings = ["Title", "Launched At"];
 const fileQuery = "#🎯";
@@ -28,6 +28,8 @@ dv
 ```
 
 ## 💤 On hiatus
+>[!info]+
+> Uncheck the "isActive" field if you want to pause your project for the time being.
 ```dataview
 table launchedAt
 from #🎯 
@@ -35,6 +37,8 @@ where isActive != true and completeAt = date(9999-12-31)
 sort launchedAt desc
 ```
 ## 💮 Complete
+>[!info]+
+> Once your project has been complete, change the "completeAt" field to the complete date
 ```dataview
 table launchedAt, completeAt 
 from #🎯 
@@ -42,6 +46,8 @@ where isActive != true and completeAt != date(9999-12-31)
 sort completeAt desc
 ```
 ## ⏭ Planning
+>[!info]+
+> If you're still planning your project, change the "launchedAt" field to the future date on which it's going to kicked off.
 ```dataviewjs
 const headings = ["Title", "Launched At"];
 const fileQuery = "#🎯";
@@ -67,7 +73,3 @@ dv
 			])
 	);
 ```
-
-## Reference
-[[資格の道まとめ]]
-[[キャリアパス]]

@@ -5,7 +5,7 @@ aliases: []
 🔙[[Home]]
 
 ## Intro
-![[npkb.png]]
+![NPKB Image](./Assets/Images/npkb.png)
 
 For setup and usage, see [[Documentation]].
 

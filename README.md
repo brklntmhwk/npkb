@@ -1,5 +1,5 @@
 ---
-modifiedAt: 2024-09-03 12:23
+modifiedAt: 2024-09-03 14:59
 aliases: []
 ---
 🔙[[Home]]
@@ -52,12 +52,12 @@ NPKB/
 │   └── ...
 ├── Notes/
 │   ├── Concepts/
+│   ├── Efforts/
 │   ├── Gleanings/
-│   ├── MOC/
-│   │   ├── Climbing Map
-│   │   ├── Evergreen Garden
-│   │   └── Kindle Library
-│   └── People/
+│   └── MOC/
+│       ├── Climbing Map
+│       ├── Evergreen Garden
+│       └── Kindle Library
 ├── Scripts/
 │   └── ...
 ├── Templates/

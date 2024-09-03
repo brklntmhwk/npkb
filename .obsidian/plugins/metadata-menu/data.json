@@ -45,28 +45,26 @@
       "colorClass": "multi",
       "options": {
         "valuesList": {
-          "1": "🔤",
-          "2": "⚗️",
-          "3": "🔢",
-          "4": "💪",
-          "5": "⚽",
-          "6": "🥋",
-          "7": "⚾",
-          "8": "🖥️",
-          "9": "🎹",
-          "11": "🎯",
-          "12": "🤝",
-          "13": "📝",
-          "14": "📷",
-          "15": "💰"
+          "3": "🕸️",
+          "4": "📖",
+          "5": "📻",
+          "6": "🌐",
+          "7": "📄",
+          "8": "🎧",
+          "9": "🧠"
         },
         "sourceType": "ValuesList",
         "valuesListNotePath": "",
         "valuesFromDVQuery": ""
       },
-      "name": "tags",
-      "id": "q6PxQ8",
-      "path": ""
+      "name": "media",
+      "id": "me0oSY",
+      "path": "",
+      "command": {
+        "id": "insert__presetField__media",
+        "icon": "radio",
+        "label": "Insert media field"
+      }
     },
     {
       "type": "Cycle",
@@ -97,26 +95,25 @@
       "colorClass": "multi",
       "options": {
         "valuesList": {
-          "3": "🕸️",
-          "4": "📖",
-          "5": "📻",
-          "6": "🌐",
-          "7": "📄",
-          "8": "🎧",
-          "9": "🧠"
+          "1": "🔤",
+          "2": "⚗️",
+          "3": "🔢",
+          "4": "💪",
+          "8": "🖥️",
+          "9": "🎹",
+          "11": "🎯",
+          "12": "🤝",
+          "13": "📝",
+          "14": "📷",
+          "15": "💰"
         },
         "sourceType": "ValuesList",
         "valuesListNotePath": "",
         "valuesFromDVQuery": ""
       },
-      "name": "media",
-      "id": "me0oSY",
-      "path": "",
-      "command": {
-        "id": "insert__presetField__media",
-        "icon": "radio",
-        "label": "Insert media field"
-      }
+      "name": "tags",
+      "id": "q6PxQ8",
+      "path": ""
     }
   ],
   "fileClassQueries": [],
@@ -125,7 +122,7 @@
   "classFilesPath": null,
   "isAutosuggestEnabled": true,
   "fileClassAlias": "fileClass",
-  "settingsVersion": "5.34",
+  "settingsVersion": "5.35",
   "firstDayOfWeek": 1,
   "enableLinks": true,
   "enableTabHeader": true,

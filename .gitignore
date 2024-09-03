@@ -4,14 +4,6 @@
 .obsidian/*-plugins.json
 .obsidian/appearance.json
 
-# .obsidian
-
-# Google Keep
-# Google Keep/
-
 # OS settings and caches
 .trash/
 .DS_Store
-
-# Ignore Smart Connections folder
-.smart-connections

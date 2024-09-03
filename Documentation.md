@@ -41,7 +41,7 @@ git remote -v
 - Follow the same step as No.4
 - After enabling it, some prompts might pop up to ask you about your Git remote repository. Select "main" and "origin/main" respectively
 
-Hereafter, you can commit changes and push them to your remote repository by running the command "QuickAdd: Git commit & push". (Or press `Ctrl(⌘) + Shift(⌥) + @`)
+Hereafter, you can commit changes and push them to your remote repository by running the command "QuickAdd: Git commit & push". (Or press `Ctrl(⌘) + Shift(⇧) + @`)
 ## Optional Setup
 ### Kindle Highlights
 >[!warning]+ Prerequisites
@@ -56,7 +56,7 @@ Now you can see files under the Kindle Highlights directory, each of which has a
 ### Appearance
 You can change appearance such as font size, layout, color theme, etc. See "Community Plugins > Minimal Theme Settings" for more details.
 
-As for things the Minimal Theme Settings cannot handle, you can also customize CSS in `.obsidian/snippets/global.css`. In that case, note that you need to have a code editor in your local (e.g., [VSCode](https://code.visualstudio.com/)) because it's impossible to open it from this vault. Incidentally, you can see class names via the developer console Obsidian offers. (Press `Ctrl(⌘) + Shift(⌥) + I` )
+As for things the Minimal Theme Settings cannot handle, you can also customize CSS in `.obsidian/snippets/global.css`. In that case, note that you need to have a code editor in your local (e.g., [VSCode](https://code.visualstudio.com/)) because it's impossible to open it from this vault. Incidentally, you can see class names via the developer console Obsidian offers. (Press `Ctrl(⌘) + Shift(⇧) + I` )
 ## Tips
 >[!info]+ Note
 > You will only see tips on what are unique to this vault. For more basic or common tips about Obsidian, consult [the official doc](https://help.obsidian.md/Home) .

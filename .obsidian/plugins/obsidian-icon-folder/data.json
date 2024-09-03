@@ -6,12 +6,12 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "⚖",
       "⚙",
       "📁",
       "LiFile",
       "🗺",
-      "🧠",
-      "🧑‍🏫"
+      "🧠"
     ],
     "recentlyUsedIconsSize": 6,
     "rules": [],
@@ -69,5 +69,6 @@
   "Templates/MOC.md": "🗺",
   "README.md": "📁",
   "Notes/MOC": "🗺",
-  "Documentation.md": "⚙"
+  "Documentation.md": "⚙",
+  "LICENSE.md": "⚖"
 }

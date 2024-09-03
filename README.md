@@ -1,5 +1,5 @@
 ---
-modifiedAt: 2024-09-03 14:59
+modifiedAt: 2024-09-03 16:13
 aliases: []
 ---
 🔙[[Home]]
@@ -22,6 +22,10 @@ This vault has nothing to do with the following things:
 
 - Schedule and task management
 	- Managing them on your smartphone or tablet is much more handy
+	- A lot of useful calendar and To-do apps available now
+- Mind map and other visualization
+	- The same reason as above (e.g., iPad)
+	- Personally, I love using iPad when creating a mind map or visualizing any ideas or thoughts
 
 ## Version Management
 The version of this vault is managed with [Git](https://git-scm.com/), which enables you to sync and share your vault among multiple devices and machines.

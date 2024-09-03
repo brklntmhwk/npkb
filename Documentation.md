@@ -41,7 +41,7 @@ git remote -v
 - Follow the same step as No.4
 - After enabling it, some prompts might pop up to ask you about your Git remote repository. Select "main" and "origin/main" respectively
 
-Hereafter, you can commit changes and push them to your remote repository by running the command "QuickAdd: Git commit & push".
+Hereafter, you can commit changes and push them to your remote repository by running the command "QuickAdd: Git commit & push". (Or press `Ctrl(⌘) + Shift(⌥) + @`)
 ## Optional Setup
 ### Kindle Highlights
 >[!warning]+ Prerequisites

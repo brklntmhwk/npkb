@@ -1,5 +1,5 @@
 ---
-modifiedAt: 2024-09-03 17:33
+modifiedAt: 2024-09-04 14:02
 aliases: []
 ---
 🔙[[Home]]
@@ -48,7 +48,7 @@ Here's the directory tree of this vault.
 NPKB/
 ├── +/
 ├── Assets/
-│   └── Images
+│   └── Images/
 ├── Daily Notes/
 │   └── ...
 ├── Kindle Highlights/

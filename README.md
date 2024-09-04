@@ -92,7 +92,7 @@ Everything gathered from external info sources (e.g., Social media) are placed h
 #### MOC(Map Of Content)
 A map of content is a collection of notes that are geared towards a specific topic.
 
-As you can see in this vault, there's no special rules about it, but **one thing to be kept in mind is a "Note first, map last" slogan**. That is rather a bottom-up process than that of trickle-down; it's not until you raise a decent number of notes that you start creating the map.
+As you can see in this vault, there's no special rules about it, but **one thing to be kept in mind is a "Note first, map last" slogan**. That is rather a bottom-up process than that of trickle-down; it's not until you raise a decent number of notes that you start creating the map. (Existing MOCs are exceptional though)
 ## Media
 As an inlet of new notes, you can choose an info medium to specify where you collect it from. After [[Documentation#Create a new note with prompts | a set of interactive prompts]], a new note is created based on the matched template, which facilitates the note editing process.
 - `📖` **Book:** Paper books (Kindle excluded)

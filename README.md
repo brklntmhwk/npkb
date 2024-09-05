@@ -1,5 +1,5 @@
 ---
-modifiedAt: 2024-09-05 13:43
+modifiedAt: 2024-09-05 16:40
 aliases: []
 ---
 🔙[[Home]]
@@ -25,6 +25,9 @@ This vault has nothing to do with the following things:
 - Mind map and other visualization
 	- The same reason as above (e.g., iPad)
 	- Personally, I love using iPad when creating a mind map or visualizing any ideas or thoughts
+- Quick notes creation and management
+	- You can leave quick notes here on the spot if you're on the PC but if not, it's quite hard
+	- Figure out another alternative way possibly with your smartphone or tablet
 
 ## Version Management
 The version of this vault is managed with [Git](https://git-scm.com/), which enables you to sync and share your vault among multiple devices and machines.

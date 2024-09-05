@@ -1,5 +1,5 @@
 ---
-modifiedAt: 2024-09-04 14:02
+modifiedAt: 2024-09-05 13:43
 aliases: []
 ---
 🔙[[Home]]
@@ -37,7 +37,7 @@ As an indicator of to what extent a note has been matured, the following emojis 
 - `⛵: boat note` Just started or floating around isolated from other notes
 - `🌱: seedling` Growing with a few contents and bidirectional links added but still in its infancy
 - `🌿: budding` Growing with more than a few  bidirectional links and contents added but still developing
-- `🌲: evergreen forest`  Well developed and full-fledged "Permanent Notes"
+- `🌲: evergreen forest`  Well developed and full-fledged "Evergreen Notes"
 
 By introducing these to your note-taking system, you can clearly see their maturity as a note and easily prioritize them. I determined the classification above referring to [Bryan Jenks](https://notes.bryanjenks.dev/Z/HOME).
 ## Directory Tree
@@ -82,7 +82,7 @@ This is helpful to centralize the info or data gathered on that day, which in tu
 ### Templates
 Notes are created based on templates. By answering some prompts, you can create a note from a specific template.
 ### Notes
-Notes contain the rest of all. They are supposed to be, so to speak, "Permanent Notes" down the road, following [[#^eb4bbe|the evergreen process]] above.
+Notes contain the rest of all. They are supposed to be, so to speak, "Evergreen Notes" down the road, following [[#^eb4bbe|the evergreen process]] above.
 #### Concepts
 You can manage bigger and more abstract things here. When you want to start with a bigger concept from the beginning, this is the one.
 #### Efforts
